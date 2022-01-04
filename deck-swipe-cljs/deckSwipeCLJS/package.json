@@ -10,6 +10,10 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@ilterugur/react-native-deck-swiper-renewed": "^2.1.7",
+    "create-react-class": "^15.7.0",
+    "i": "^0.3.7",
+    "npm": "^8.3.0",
     "react": "17.0.2",
     "react-native": "0.66.4"
   },
