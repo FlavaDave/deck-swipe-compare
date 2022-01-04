@@ -22,4 +22,34 @@ react-native starts without errors!
 
 `deckSwipeJS (master) $ npx react-native run-ios`
 
-it work! default template renders fine
+It works! default template renders fine
+
+[now to follow instructions for this npm package](https://www.npmjs.com/package/@ilterugur/react-native-deck-swiper-renewed)
+
+`deckSwipeJS (master) $ npm install npm i @ilterugur/react-native-deck-swiper-renewed --save`
+
+restart metro
+
+got into App.JS, import Swiper from swiper lib, import Button from react, replace stylesheet with stylesheet from npm docks, remove Section component, replace render function in App with example from docs
+
+## CLJS repro
+
+`deck-swipe (master) $ mkdir deck-swipe-cljs`
+
+`deck-swipe (master) $ cd deck-swipe-cljs/`
+
+`deck-swipe-cljs (master) $ react-native init deckSwipeCLJS`
+
+`deck-swipe-cljs (master) $ cd deckSwipeCLJS/`
+
+`deckSwipeCLJS (master) $ npm install`
+
+`deckSwipeCLJS (master) $ npx pod-install`
+
+`deckSwipeCLJS (master) $ cd ../`
+
+`shadow-cljs init`
+
+edit shadow-cljs.edn to be:
+
+``````
